@@ -1,4 +1,4 @@
-
+###con este codigo me cargan las tablas 
 library(readxl)
 Educacion_04 <- read_excel("C:/Users/Edwin/Downloads/Educacion_04.xlsx")
 View(Educacion_04)
@@ -10,12 +10,12 @@ View(Educacion_03)
 library(readxl)
 Educacion_01 <- read_excel("C:/Users/Edwin/Downloads/Educacion_01.xlsx")
 View(Educacion_01)
-
+read
 library(xlsx)
-educacion1 <- read.xlsx("C:/Users/Edwin/Downloads/Educacion_04.xlsx", header= TRUE, rowIndex=3:37, sheetIndex=1)
+educacion1 <- read_xlsx("C:/Users/Edwin/Downloads/Educacion_04.xlsx", header= TRUE, rowIndex=3:37, sheetIndex=1)
 print(educacion1)
 
-educacion2 <- read.xlsx("C:/Users/Edwin/Downloads/Educacion_03.xlsx", header= TRUE, rowIndex=3:37, sheetIndex=1)
+educacion2 <- read_xlsx("C:/Users/Edwin/Downloads/Educacion_03.xlsx", header= TRUE, rowIndex=3:37, sheetIndex=1)
 print(educacion2)
 
 educacion3 <- read.xlsx("C:/Users/Edwin/Downloads/Educacion_01.xlsx", header= TRUE, rowIndex=3:37, sheetIndex=1)
